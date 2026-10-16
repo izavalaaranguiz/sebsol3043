@@ -293,8 +293,7 @@ write_csv(tabla_ajuste, file.path(carpeta_output, "tabla_ajuste_modelos.csv"))
 
 # --- Tabla QSM: parámetros en filas, políticas en columnas -------
 # Formato "estimación (error estándar)", tres decimales. Para r se
-# reporta solo la estimación. En empleo, r_2016_18 = 1 es un valor
-# de frontera producto de fijar var(zeta_2018) = 0.
+# reporta solo la estimación. En empleo, r_2016_18 = 1 es producto de fijar var(zeta_2018) = 0.
 orden_parametros <- c("b21", "b32", "b43",
                       "r_2016_18", "r_2018_21", "r_2021_23",
                       "mu_2016", "mu_2018", "mu_2021", "mu_2023",
