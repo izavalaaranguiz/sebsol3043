@@ -1,0 +1,37 @@
+# --- General ---
+.Rhistory
+.Rproj.user/
+.DS_Store
+*.Rproj
+/.quarto/
+*_cache/
+.Rdata
+.RData
+
+# --- presentacion_seb ---
+presentacion_seb/Castillo12.pdf
+presentacion_seb/Jasso78.pdf
+presentacion_seb/Sauer26.pdf
+presentacion_seb/Rúbrica.pdf
+presentacion_seb/Protocolo presentaciones.pdf
+
+# --- elri_seb: presentación y carpetas 01-04 ---
+elri_seb/*
+!elri_seb/pres_estabilidad_politicas_indigenas.html
+!elri_seb/pres_estabilidad_politicas_indigenas.qmd
+!elri_seb/pres_estabilidad_politicas_indigenas_files/
+!elri_seb/logopuc.png
+!elri_seb/tema.scss
+!elri_seb/apa.csl
+!elri_seb/referencias.bib
+!elri_seb/data_elri/
+elri_seb/data_elri/*
+!elri_seb/data_elri/fig_medias_por_ola.png
+!elri_seb/01_input/
+!elri_seb/02_scripts/
+!elri_seb/03_output/
+!elri_seb/04_informe/
+
+# --- PDF final ---
+elri_seb/04_informe/build/*
+!elri_seb/04_informe/build/informe_seb_IZA.pdf

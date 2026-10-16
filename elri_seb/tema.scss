@@ -1,0 +1,26 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: "Gill Sans MT", "Gill Sans", "Calibri", sans-serif !default;
+$presentation-heading-font: "Gill Sans MT", "Gill Sans", "Calibri", sans-serif !default;
+$presentation-font-size-root: 34px !default;
+
+/*-- scss:rules --*/
+
+.reveal .slide-logo {
+  max-height: 60px;
+  max-width: 120px;
+}
+
+// Título más pequeño en la portada (no afecta los títulos de las demás diapositivas)
+.reveal .title-slide h1.title {
+  font-size: 1.0em;
+}
+
+.reveal .title-slide p.subtitle {
+  font-size: 0.8em;
+}
+
+// Títulos más pequeños en el resto de las diapositivas (no afecta el cuerpo del texto)
+.reveal .slides section h2 {
+  font-size: 0.8em;
+}

@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="pres_estabilidad_politicas_indigenas_files/libs/clipboard/clipboard.min.js"></script>
+<script src="pres_estabilidad_politicas_indigenas_files/libs/quarto-html/tabby.min.js"></script>
+<script src="pres_estabilidad_politicas_indigenas_files/libs/quarto-html/popper.min.js"></script>
+<script src="pres_estabilidad_politicas_indigenas_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="pres_estabilidad_politicas_indigenas_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="pres_estabilidad_politicas_indigenas_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="pres_estabilidad_politicas_indigenas_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
+
+  <meta name="author" content="Ignacio Zavala Aránguiz">
+  <title>Del estallido al Rechazo: cambio y estabilidad de valoraciones hacia políticas indígenas en Chile, 2016–2023</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="pres_estabilidad_politicas_indigenas_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="pres_estabilidad_politicas_indigenas_files/libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="pres_estabilidad_politicas_indigenas_files/libs/revealjs/dist/theme/quarto-4ef411764a167c3203394822cfef3928.css">
+  <link href="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Del estallido al Rechazo: cambio y estabilidad de valoraciones hacia políticas indígenas en Chile, 2016–2023</h1>
+  <p class="subtitle">Proyecto para Sociología del Estado de Bienestar (SOL3043) <br> <a href="mailto:ignacio.zavala@uc.cl">ignacio.zavala@uc.cl</a> · <a href="https://github.com/izavalaaranguiz">GitHub</a></p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Ignacio Zavala Aránguiz
+</div>
+</div>
+</div>
+
+</section>
+<section class="slide level2">
+
+<style>
+.reveal .slides { font-size: 0.75em; }
+.reveal .slides section h2 { font-size: 1.2em !important; }
+.reveal table { font-size: 0.82em; margin-left: auto; margin-right: auto; }
+.reveal table th, .reveal table td { padding: 0.25em 0.6em; }
+.reveal .callout .callout-body-container { font-size: 1em !important; }
+.reveal .callout .callout-title-container { font-size: 1em !important; }
+.reveal .eq-flechas { font-size: 1.05em; }
+</style>
+</section>
+<section id="contexto-el-conflicto-indígena-llega-a-la-agenda-pública" class="slide level2">
+<h2>Contexto: el conflicto indígena llega a la agenda pública</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<div class="fragment">
+<ul>
+<li>El conflicto entre el Estado y los pueblos indígenas, en particular el mapuche, por territorio y autonomía es una de las tensiones más persistentes de la democracia post-transición <span class="citation" data-cites="bauer2016 pairican2021">(<a href="#/referencias" role="doc-biblioref" onclick="">Bauer, 2016</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Pairican &amp; Urrutia, 2021</a>)</span>.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Chile vivió procesos que pusieron parte de ese conflicto en la <strong>agenda pública</strong>: estallido de 2019, Convención con <strong>escaños reservados</strong> y <strong>Rechazo</strong> de 2022 <span class="citation" data-cites="piscopo2021 somma2021 disipavlic2024 turrachico2026">(<a href="#/referencias" role="doc-biblioref" onclick="">Disi Pavlic, 2024</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Piscopo &amp; Siavelis, 2021</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Somma et al., 2021</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Turra Chico et al., 2026</a>)</span>.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Las explicaciones suelen anclarse en actores institucionales y soberanía estatal, pero <strong>rara vez incorporan la importancia que la ciudadanía atribuye a estos temas en el tiempo</strong>.</li>
+</ul>
+</div>
+</div><div class="column" style="width:45%;">
+<div class="fragment">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tres fases del período</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>2016 – 2018</strong><br>
+pre-estallido</p>
+<p><span class="math inline">\(\Downarrow\)</span></p>
+<p><strong>2018 – 2021</strong><br>
+estallido y proceso constituyente</p>
+<p><span class="math inline">\(\Downarrow\)</span></p>
+<p><strong>2021 – 2023</strong><br>
+post-Rechazo</p>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="brecha-contribución-y-pregunta-de-investigación" class="slide level2">
+<h2>Brecha, contribución y pregunta de investigación</h2>
+<div class="fragment">
+<ul>
+<li>Las actitudes hacia grupos minoritarios se han estudiado sobre todo desde <strong>raza e inmigración</strong> <span class="citation" data-cites="kustov2021 achard2025">(<a href="#/referencias" role="doc-biblioref" onclick="">Achard et al., 2025</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Kustov et al., 2021</a>)</span>. Sobre <strong>políticas indígenas</strong> hay poca evidencia, casi siempre transversal <span class="citation" data-cites="bergmann2024 fuentes2025 bartram2022">(<a href="#/referencias" role="doc-biblioref" onclick="">Bartram &amp; Jarochova, 2022</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Bergmann, 2024</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Fuentes et al., 2025</a>)</span>.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>La sostenibilidad de una política depende de que el tema mantenga <strong>centralidad más allá de su pico mediático</strong>. En las políticas indígenas es crítico: arrastran conflictos históricos y apuntan a poblaciones susceptibles de <strong>reparación histórica</strong> <span class="citation" data-cites="kymlicka2003">(<a href="#/referencias" role="doc-biblioref" onclick="">Kymlicka, 2003</a>)</span>.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Contribución:</strong> distinguir cambio persistente de transitorio en la importancia atribuida a políticas indígenas, controlando por error de medición.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Pregunta de investigación:</strong><br>
+<em>¿En qué medida las valoraciones de distintas políticas indígenas muestran patrones de cambio persistente o estabilidad durante 2016-2023 en Chile, y cómo varía este patrón según el tipo de política evaluada?</em></li>
+</ul>
+</div>
+</section>
+<section id="literatura-sdm-aum-y-el-rol-del-qsm" class="slide level2">
+<h2>Literatura: SDM, AUM y el rol del QSM</h2>
+<div class="fragment">
+<ul>
+<li><strong>SDM</strong> (disposiciones estables): hay una creencia basal y las fluctuaciones entre olas son transitorias o error de medición. <strong>AUM</strong> (actualización activa): las personas revisan sus creencias y ese cambio se propaga a las mediciones siguientes <span class="citation" data-cites="kiley2020 vaisey2021">(<a href="#/referencias" role="doc-biblioref" onclick="">Kiley &amp; Vaisey, 2020</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Vaisey &amp; Kiley, 2021</a>)</span>.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>En actitudes raciales y de límite grupal predomina la <strong>estabilidad</strong> una vez controlado el error <span class="citation" data-cites="kustov2021">(<a href="#/referencias" role="doc-biblioref" onclick="">Kustov et al., 2021</a>)</span>. El cambio persistente es más probable en temas <strong>de alta saliencia</strong> <span class="citation" data-cites="kiley2020 sears1983 prior2010">(<a href="#/referencias" role="doc-biblioref" onclick="">Kiley &amp; Vaisey, 2020</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Prior, 2010</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Sears, 1983</a>)</span>.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Quasi-Simplex (QSM):</strong> separa el <em>true score</em> del error de medición con al menos tres olas y entrega la <strong>estabilidad entre olas libre de error</strong> <span class="citation" data-cites="wiley1970 achen1975 prior2010">(<a href="#/referencias" role="doc-biblioref" onclick="">Achen, 1975</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Prior, 2010</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Wiley &amp; Wiley, 1970</a>)</span>.</li>
+</ul>
+</div>
+</section>
+<section id="el-caso-chileno-exposición-diferenciada-de-las-políticas" class="slide level2">
+<h2>El caso chileno: exposición diferenciada de las políticas</h2>
+<div class="fragment">
+<ul>
+<li>Conflicto extenso y de larga data en la macrozona sur <span class="citation" data-cites="montenegro2024 pairican2021">(<a href="#/referencias" role="doc-biblioref" onclick="">Montenegro, 2024</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Pairican &amp; Urrutia, 2021</a>)</span>, con una <strong>exposición inédita</strong> en el estallido y la Convención <span class="citation" data-cites="piscopo2021 somma2021">(<a href="#/referencias" role="doc-biblioref" onclick="">Piscopo &amp; Siavelis, 2021</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Somma et al., 2021</a>)</span>.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Autonomía, restitución de tierras y escaños reservados</strong> pasaron a la agenda constitucional <span class="citation" data-cites="disipavlic2024 herraz2026 bauer2018 turrachico2026">(<a href="#/referencias" role="doc-biblioref" onclick="">Bauer, 2018</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Disi Pavlic, 2024</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Herraz et al., 2026</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Turra Chico et al., 2026</a>)</span>. <strong>Educación y empleo</strong> siguieron como política social secundaria y transversal <span class="citation" data-cites="suarezdelucchi2024 somma2021">(<a href="#/referencias" role="doc-biblioref" onclick="">Somma et al., 2021</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Suárez Delucchi &amp; Rivera Ugarte, 2024</a>)</span>.</li>
+</ul>
+</div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Objetivo</strong></p>
+</div>
+<div class="callout-content">
+<p>Evaluar <strong>qué modelo explica mejor el cambio</strong> en la importancia atribuida a estas políticas (SDM, AUM o QSM) y <strong>en cuáles se plasma con más claridad</strong>, distinguiendo las de mayor saliencia.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="pregunta-y-datos" class="slide level2">
+<h2>Pregunta y datos</h2>
+<div class="fragment">
+<ul>
+<li><strong>Pregunta:</strong> <em>¿En qué medida las valoraciones de distintas políticas indígenas muestran patrones de cambio persistente o estabilidad durante 2016-2023 en Chile, y cómo varía este patrón según el tipo de política evaluada?</em></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>ELRI</strong> (CIIR): panel de población indígena y no indígena en tres macrozonas (Norte, Centro, Sur), con sobrerrepresentación indígena y <strong>muestras espejo</strong>.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Entrevistados por ola:</strong> 3.613 (2016), 2.879 (2018), 1.847 (2021) y 1.680 (2023). La mayor pérdida ocurre entre 2018 y 2021, por el paso a modalidad telefónica durante el COVID-19.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Muestra analítica:</strong> panel balanceado, <span class="math inline">\(N = 1{,}589\)</span>. Hay atrición diferencial por etnia, sexo y edad, y no se usan ponderadores longitudinales.</li>
+</ul>
+</div>
+</section>
+<section id="variable-dependiente-enunciado-e-ítems" class="slide level2">
+<h2>Variable dependiente: enunciado e ítems</h2>
+<div class="fragment">
+<ul>
+<li><p><em>«Existe una serie de políticas que se han discutido para abordar el tema indígena. Según usted, ¿cuán importante es…?»</em></p>
+<p>Escala de 5 puntos: 1 = Muy poco, 5 = Mucho.</p></li>
+</ul>
+</div>
+<div class="fragment">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Tipo</th>
+<th style="text-align: left;">Ítem (redacción exacta)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Convención</td>
+<td style="text-align: left;">«Que puedan administrar autónomamente sus territorios»</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Convención</td>
+<td style="text-align: left;">«Establecer asientos especiales en el congreso»</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Convención</td>
+<td style="text-align: left;">«Restituirles o devolverles sus tierras»</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Socioeconómica</td>
+<td style="text-align: left;">«Mejorar su educación»</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Socioeconómica</td>
+<td style="text-align: left;">«Políticas de generación de empleo»</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="estrategia-i-sdm-y-aum" class="slide level2">
+<h2>Estrategia (I): SDM y AUM</h2>
+<div class="fragment eq-flechas">
+<ul>
+<li><strong>SDM</strong>: una disposición individual fija <span class="math inline">\(U_i\)</span> alimenta todas las olas; el resto es transitorio.</li>
+</ul>
+<p><span class="math display">\[U_i \;\xrightarrow{\;\;1\;\;}\; \underbrace{y_{i1},\; y_{i2},\; y_{i3},\; y_{i4}}_{y_{it}\,=\,\alpha_t\,+\,U_i\,+\,\varepsilon_{it}}\]</span></p>
+</div>
+<div class="fragment eq-flechas">
+<ul>
+<li><strong>AUM</strong>: el valor de una ola se propaga a la siguiente con persistencia <span class="math inline">\(\rho\)</span>.</li>
+</ul>
+<p><span class="math display">\[y_{i1} \xrightarrow{\;\;\rho_1\;\;} y_{i2} \xrightarrow{\;\;\rho_2\;\;} y_{i3} \xrightarrow{\;\;\rho_3\;\;} y_{i4} \qquad y_{it}=\alpha_t+\rho_{t-1}\,y_{i,t-1}+\varepsilon_{it}\]</span></p>
+</div>
+<div class="fragment">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Modelo</th>
+<th style="text-align: center;"><span class="math inline">\(U_i\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\rho\)</span></th>
+<th style="text-align: center;">Intercepto <span class="math inline">\(\alpha_t\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">SDM libre</td>
+<td style="text-align: center;">varianza libre</td>
+<td style="text-align: center;"><span class="math inline">\(\rho = 0\)</span></td>
+<td style="text-align: center;">libre por ola</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SDM puro</td>
+<td style="text-align: center;">varianza libre</td>
+<td style="text-align: center;"><span class="math inline">\(\rho = 0\)</span></td>
+<td style="text-align: center;">constante</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AUM constante</td>
+<td style="text-align: center;"><span class="math inline">\(U_i = 0\)</span></td>
+<td style="text-align: center;">fijo entre olas</td>
+<td style="text-align: center;">constante</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AUM libre</td>
+<td style="text-align: center;"><span class="math inline">\(U_i = 0\)</span></td>
+<td style="text-align: center;">libre por ola</td>
+<td style="text-align: center;">libre por ola</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="estrategia-ii-qsm-y-criterios-de-ajuste" class="slide level2">
+<h2>Estrategia (II): QSM y criterios de ajuste</h2>
+<div class="fragment eq-flechas">
+<ul>
+<li><strong>QSM</strong>: el <em>true score</em> <span class="math inline">\(\eta_t\)</span> se encadena entre olas y cada medición <span class="math inline">\(y_t\)</span> agrega error.</li>
+</ul>
+<p><span class="math display">\[\begin{array}{ccccccc}
+\eta_1 &amp; \xrightarrow{\;\beta_{21}\;} &amp; \eta_2 &amp; \xrightarrow{\;\beta_{32}\;} &amp; \eta_3 &amp; \xrightarrow{\;\beta_{43}\;} &amp; \eta_4 \\[2pt]
+\downarrow &amp; &amp; \downarrow &amp; &amp; \downarrow &amp; &amp; \downarrow \\[2pt]
+y_1 &amp; &amp; y_2 &amp; &amp; y_3 &amp; &amp; y_4
+\end{array}\]</span></p>
+<p><span class="math display">\[y_t = \eta_t + \varepsilon_t \qquad\quad \eta_t = \alpha_t + \beta_{t,t-1}\,\eta_{t-1} + \zeta_t\]</span></p>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="math inline">\(\beta_{t,t-1}\)</span>: estabilidad libre de error de medición entre olas consecutivas; varianza del error igual en las cuatro olas <span class="citation" data-cites="wiley1970 prior2010">(<a href="#/referencias" role="doc-biblioref" onclick="">Prior, 2010</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Wiley &amp; Wiley, 1970</a>)</span>. Si una varianza de <span class="math inline">\(\eta\)</span> resulta negativa (Heywood), se fija en 0.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Ajuste:</strong> BIC (criterio principal), CFI, RMSEA <span class="citation" data-cites="kline2023">(<a href="#/referencias" role="doc-biblioref" onclick="">Kline, 2023</a>)</span>. Estimación con <code>lavaan</code> (MLR, FIML).</li>
+</ul>
+</div>
+</section>
+<section id="descriptivo-nivel-promedio-por-ola" class="slide level2">
+<h2>Descriptivo: nivel promedio por ola</h2>
+
+<img data-src="data_elri/fig_medias_por_ola.png" class="quarto-figure quarto-figure-center r-stretch" style="width:90.0%"><div class="fragment">
+<ul>
+<li>Cuatro de los cinco ítems tienen su punto más alto en 2021; empleo casi no se mueve. Este descriptivo <strong>no separa cambio real de error de medición</strong>.</li>
+</ul>
+</div>
+</section>
+<section id="qué-modelo-se-ajusta-mejor-sdm-vs.-aum" class="slide level2">
+<h2>¿Qué modelo se ajusta mejor? SDM vs.&nbsp;AUM</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Ítem</th>
+<th style="text-align: left;">Mejor modelo</th>
+<th style="text-align: right;">BIC</th>
+<th style="text-align: right;">ΔBIC vs.&nbsp;2.º</th>
+<th style="text-align: right;">CFI</th>
+<th style="text-align: right;">RMSEA</th>
+<th style="text-align: right;">SRMR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Autonomía</td>
+<td style="text-align: left;">SDM libre</td>
+<td style="text-align: right;">19589</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">.87</td>
+<td style="text-align: right;">.058</td>
+<td style="text-align: right;">.037</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Escaños</td>
+<td style="text-align: left;">SDM libre</td>
+<td style="text-align: right;">20004</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">.88</td>
+<td style="text-align: right;">.066</td>
+<td style="text-align: right;">.042</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Restitución</td>
+<td style="text-align: left;">SDM libre</td>
+<td style="text-align: right;">18931</td>
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">.99</td>
+<td style="text-align: right;">.027</td>
+<td style="text-align: right;">.022</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Educación</td>
+<td style="text-align: left;">SDM libre</td>
+<td style="text-align: right;">15939</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">.91</td>
+<td style="text-align: right;">.020</td>
+<td style="text-align: right;">.018</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Empleo</td>
+<td style="text-align: left;">AUM constante</td>
+<td style="text-align: right;">17650</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">.80</td>
+<td style="text-align: right;">.037</td>
+<td style="text-align: right;">.033</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<ul>
+<li>SDM ajusta de manera superior en cuatro ítems y AUM constante en empleo.</li>
+<li><strong>AUM no prevalece en ninguna política de alta saliencia de la Convención.</strong></li>
+</ul>
+</div>
+</section>
+<section id="bic-de-los-cinco-modelos-por-ítem" class="slide level2">
+<h2>BIC de los cinco modelos por ítem</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Ítem</th>
+<th style="text-align: right;">SDM libre</th>
+<th style="text-align: right;">SDM puro</th>
+<th style="text-align: right;">AUM constante</th>
+<th style="text-align: right;">AUM libre</th>
+<th style="text-align: right;">QSM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Autonomía</td>
+<td style="text-align: right;"><strong>19589</strong></td>
+<td style="text-align: right;">19670</td>
+<td style="text-align: right;">19641</td>
+<td style="text-align: right;">19612</td>
+<td style="text-align: right;"><strong>19590</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Escaños</td>
+<td style="text-align: right;">20004</td>
+<td style="text-align: right;">20148</td>
+<td style="text-align: right;">20152</td>
+<td style="text-align: right;">20026</td>
+<td style="text-align: right;"><strong>19989</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Restitución</td>
+<td style="text-align: right;"><strong>18931</strong></td>
+<td style="text-align: right;">19055</td>
+<td style="text-align: right;">19126</td>
+<td style="text-align: right;">19032</td>
+<td style="text-align: right;">18948</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Educación</td>
+<td style="text-align: right;"><strong>15939</strong></td>
+<td style="text-align: right;">15988</td>
+<td style="text-align: right;">15953</td>
+<td style="text-align: right;">15952</td>
+<td style="text-align: right;">15956</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Empleo</td>
+<td style="text-align: right;">17667</td>
+<td style="text-align: right;">17667</td>
+<td style="text-align: right;"><strong>17650</strong></td>
+<td style="text-align: right;">17674</td>
+<td style="text-align: right;">17658</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<ul>
+<li>En negrita, el menor BIC de cada ítem. Autonomía queda en empate entre SDM libre y QSM.</li>
+<li>El QSM queda cerca en todos los ítems pese a su capacidad de controlar por error de medición. Su aporte concreto está es medir <strong>cuánto persiste cada transición</strong>.</li>
+</ul>
+</div>
+</section>
+<section id="qsm-estabilidad-entre-olas" class="slide level2">
+<h2>QSM: estabilidad entre olas</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">Autonomía</th>
+<th style="text-align: right;">Escaños</th>
+<th style="text-align: right;">Restitución</th>
+<th style="text-align: right;">Educación</th>
+<th style="text-align: right;">Empleo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">β 2016-18</td>
+<td style="text-align: right;">0.81 (0.13)</td>
+<td style="text-align: right;">0.92 (0.13)</td>
+<td style="text-align: right;">0.76 (0.09)</td>
+<td style="text-align: right;">0.30 (0.13)</td>
+<td style="text-align: right;">0.72 (0.12)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">β 2018-21</td>
+<td style="text-align: right;">0.47 (0.09)</td>
+<td style="text-align: right;">0.43 (0.06)</td>
+<td style="text-align: right;">0.78 (0.09)</td>
+<td style="text-align: right;">0.26 (0.13)</td>
+<td style="text-align: right;">0.71 (0.18)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">β 2021-23</td>
+<td style="text-align: right;">0.85 (0.18)</td>
+<td style="text-align: right;">0.86 (0.14)</td>
+<td style="text-align: right;">0.85 (0.09)</td>
+<td style="text-align: right;">0.92 (0.77)</td>
+<td style="text-align: right;">0.34 (0.11)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">r 2016-18</td>
+<td style="text-align: right;">0.88</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.84</td>
+<td style="text-align: right;">0.42</td>
+<td style="text-align: right;">1.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">r 2018-21</td>
+<td style="text-align: right;">0.61</td>
+<td style="text-align: right;">0.67</td>
+<td style="text-align: right;">0.84</td>
+<td style="text-align: right;">0.39</td>
+<td style="text-align: right;">0.48</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">r 2021-23</td>
+<td style="text-align: right;">0.60</td>
+<td style="text-align: right;">0.58</td>
+<td style="text-align: right;">0.62</td>
+<td style="text-align: right;">0.44</td>
+<td style="text-align: right;">0.36</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div style="font-size: 0.7em;">
+<p>β (error estándar): estabilidad del QSM; r: correlación entre true scores. Empleo: varianza de 2018 fijada en 0 (r = 1,00 es valor de frontera).</p>
+</div>
+<div class="fragment">
+<ul>
+<li>Las correlaciones más altas (.58 a .88) son las de las <strong>tres políticas de la Convención</strong>; educación y empleo quedan bajo .50.</li>
+</ul>
+</div>
+</section>
+<section id="qsm-criterios-de-ajuste" class="slide level2">
+<h2>QSM: criterios de ajuste</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">Autonomía</th>
+<th style="text-align: right;">Escaños</th>
+<th style="text-align: right;">Restitución</th>
+<th style="text-align: right;">Educación</th>
+<th style="text-align: right;">Empleo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">χ²</td>
+<td style="text-align: right;">10.80</td>
+<td style="text-align: right;">2.00</td>
+<td style="text-align: right;">4.90</td>
+<td style="text-align: right;">5.20</td>
+<td style="text-align: right;">0.70</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">gl</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p</td>
+<td style="text-align: right;">0.005</td>
+<td style="text-align: right;">0.370</td>
+<td style="text-align: right;">0.085</td>
+<td style="text-align: right;">0.075</td>
+<td style="text-align: right;">0.880</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CFI</td>
+<td style="text-align: right;">0.96</td>
+<td style="text-align: right;">1.00</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">0.97</td>
+<td style="text-align: right;">1.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">RMSEA</td>
+<td style="text-align: right;">0.050</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.032</td>
+<td style="text-align: right;">0.019</td>
+<td style="text-align: right;">0.000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BIC</td>
+<td style="text-align: right;">19590</td>
+<td style="text-align: right;">19989</td>
+<td style="text-align: right;">18948</td>
+<td style="text-align: right;">15956</td>
+<td style="text-align: right;">17658</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">N</td>
+<td style="text-align: right;">1589</td>
+<td style="text-align: right;">1589</td>
+<td style="text-align: right;">1589</td>
+<td style="text-align: right;">1589</td>
+<td style="text-align: right;">1589</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="fragment">
+<ul>
+<li>Ajuste del QSM con varianza de error igual entre olas (df = 2; empleo, df = 3 tras fijar la varianza de 2018 en 0).</li>
+</ul>
+</div>
+</section>
+<section id="qsm-interceptos-libres-y-nivel-del-true-score-por-ola" class="slide level2">
+<h2>QSM: interceptos libres y nivel del true score por ola</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Ítem</th>
+<th style="text-align: right;">2016</th>
+<th style="text-align: right;">2018</th>
+<th style="text-align: right;">2021</th>
+<th style="text-align: right;">2023</th>
+<th style="text-align: right;">2021-2018</th>
+<th style="text-align: right;">2023-2021</th>
+<th style="text-align: right;">2023-2018</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Autonomía</td>
+<td style="text-align: right;">3.35</td>
+<td style="text-align: right;">3.45</td>
+<td style="text-align: right;">3.73</td>
+<td style="text-align: right;">3.56</td>
+<td style="text-align: right;"><strong>+.29</strong></td>
+<td style="text-align: right;">−.17</td>
+<td style="text-align: right;"><strong>+.12</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Escaños</td>
+<td style="text-align: right;">3.31</td>
+<td style="text-align: right;">3.32</td>
+<td style="text-align: right;">3.75</td>
+<td style="text-align: right;">3.40</td>
+<td style="text-align: right;"><strong>+.43</strong></td>
+<td style="text-align: right;">−.34</td>
+<td style="text-align: right;"><strong>+.08</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Restitución</td>
+<td style="text-align: right;">3.62</td>
+<td style="text-align: right;">3.75</td>
+<td style="text-align: right;">3.97</td>
+<td style="text-align: right;">3.58</td>
+<td style="text-align: right;"><strong>+.23</strong></td>
+<td style="text-align: right;">−.39</td>
+<td style="text-align: right;"><strong>−.17</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Educación</td>
+<td style="text-align: right;">4.10</td>
+<td style="text-align: right;">4.22</td>
+<td style="text-align: right;">4.35</td>
+<td style="text-align: right;">4.21</td>
+<td style="text-align: right;">+.13</td>
+<td style="text-align: right;">−.14</td>
+<td style="text-align: right;">−.01</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Empleo</td>
+<td style="text-align: right;">3.89</td>
+<td style="text-align: right;">4.02</td>
+<td style="text-align: right;">4.03</td>
+<td style="text-align: right;">4.02</td>
+<td style="text-align: right;">+.01</td>
+<td style="text-align: right;">−.01</td>
+<td style="text-align: right;">.00</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<ul>
+<li>Liberar el intercepto por ola capta <strong>shocks agregados</strong> que mueven a todos por igual sin cambiar la disposición individual. Ganancia de BIC de SDM libre sobre SDM puro: 81 (autonomía), 144 (escaños), 124 (restitución), 49 (educación) y 0 (empleo).</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>El nivel <strong>sube en 2021 y vuelve hacia 2018 en 2023</strong>: autonomía queda algo más arriba y restitución más abajo. Empleo no muestra pico.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Resultado central:</strong> predominan las disposiciones estables (SDM libre) con desplazamientos transitoriosl; la estabilidad cae en 2018-21 en autonomía y escaños, se mantiene en restitución, y ninguna política de la Convención se recupera en 2021-23.</li>
+</ul>
+</div>
+</section>
+<section id="conclusiones-e-interpretación" class="slide level2">
+<h2>Conclusiones e interpretación</h2>
+<div class="fragment">
+<ul>
+<li><strong>Respuesta a la pregunta:</strong> el cambio fue <strong>transitorio, no persistente</strong>. Predomina la <strong>estabilidad de creencias</strong>; el AUM, que habría mostrado importancia latente persistente, no aparece en las políticas de la Convención.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Convención:</strong> 2018-2021 fue de <strong>establecimiento de la saliencia</strong>. Tras el Rechazo, decidido por el abordaje concreto de la Convención y su capacidad de generar una propuesta, los temas <strong>perdieron centralidad</strong> (restitución termina bajo su nivel de 2018) <span class="citation" data-cites="sears1983 prior2010">(<a href="#/referencias" role="doc-biblioref" onclick="">Prior, 2010</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Sears, 1983</a>)</span>. La estabilidad podría reflejar incluso a personas descontentas con el proceso <span class="citation" data-cites="turrachico2026 herraz2026">(<a href="#/referencias" role="doc-biblioref" onclick="">Herraz et al., 2026</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Turra Chico et al., 2026</a>)</span>.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Socioeconómicas:</strong> educación y empleo <strong>no muestran esa saliencia ni variabilidad</strong>. Parten de niveles altos (≈ 4,0 a 4,3 de 5), con poca dispersión entre personas y sin pico claro en 2021 (empleo es plano). No entraron al debate institucional <span class="citation" data-cites="suarezdelucchi2024">(<a href="#/referencias" role="doc-biblioref" onclick="">Suárez Delucchi &amp; Rivera Ugarte, 2024</a>)</span>, así que no hubo activación que luego se disolviera. Que AUM gane en empleo es evidencia débil: la ventaja de BIC es pequeña (8 frente al QSM) y el ajuste absoluto es bajo (CFI = .80).</li>
+</ul>
+</div>
+</section>
+<section id="límites" class="slide level2">
+<h2>Límites</h2>
+<div class="fragment">
+<ul>
+<li>Un indicador por ola: la identificación exige error igual entre olas, y no se puede estimar <em>validity</em>.</li>
+<li>Empleo con Heywood y educación con poca varianza verdadera. El QSM supone que 2023 depende solo de 2021.</li>
+<li>Panel balanceado con atrición diferencial y sin ponderadores; no se atribuye causalidad a un evento.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Me habría gustado distinguir entre <strong>población indígena y no indígena</strong>, pero el poder estadístico de las submuestras dificulta identificar efectos de forma apropiada.</li>
+</ul>
+</div>
+</section>
+<section class="slide level2">
+
+<p><strong>¡Muchas gracias!</strong></p>
+<p>Preguntas y comentarios bienvenidos.</p>
+</section>
+<section id="referencias" class="slide level2 smaller scrollable">
+<h2>Referencias</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-achard2025" class="csl-entry" role="listitem">
+Achard, P., Albrecht, S., Ghidoni, R., Cettolin, E., &amp; Suetens, S. (2025). Local exposure to refugees changed attitudes to ethnic minorities in the <span>Netherlands</span>. <em>The Economic Journal</em>, <em>135</em>(667), 808–837. <a href="https://doi.org/10.1093/ej/ueae080">https://doi.org/10.1093/ej/ueae080</a>
+</div>
+<div id="ref-achen1975" class="csl-entry" role="listitem">
+Achen, C. H. (1975). Mass <span>Political Attitudes</span> and the <span>Survey Response</span>. <em>American Political Science Review</em>, <em>69</em>(4), 1218–1231. <a href="https://doi.org/10.2307/1955282">https://doi.org/10.2307/1955282</a>
+</div>
+<div id="ref-bartram2022" class="csl-entry" role="listitem">
+Bartram, D., &amp; Jarochova, E. (2022). A longitudinal investigation of integration/multiculturalism policies and attitudes towards immigrants in <span>European</span> countries. <em>Journal of Ethnic and Migration Studies</em>, <em>48</em>(1), 153–172. <a href="https://doi.org/10.1080/1369183X.2021.1922273">https://doi.org/10.1080/1369183X.2021.1922273</a>
+</div>
+<div id="ref-bauer2016" class="csl-entry" role="listitem">
+Bauer, K. (2016). Land versus <span>Territory</span>: <span>Evaluating Indigenous Land Policy</span> for the <span>Mapuche</span> in <span>Chile</span>. <em>Journal of Agrarian Change</em>, <em>16</em>(4), 627–645. <a href="https://doi.org/10.1111/joac.12103">https://doi.org/10.1111/joac.12103</a>
+</div>
+<div id="ref-bauer2018" class="csl-entry" role="listitem">
+Bauer, K. (2018). Not-so-neoliberal governance: <span>Chile</span>’s response to <span>Mapuche</span> territorial demands. <em>Latin American and Caribbean Ethnic Studies</em>, <em>13</em>(3), 214–236. <a href="https://doi.org/10.1080/17442222.2018.1457007">https://doi.org/10.1080/17442222.2018.1457007</a>
+</div>
+<div id="ref-bergmann2024" class="csl-entry" role="listitem">
+Bergmann, F. (2024). Divided <span>Attitudes Toward Rectifying Injustice</span>: <span>How Preferences</span> for <span>Indigenous Policies Differ Between</span> the <span>Indigenous</span> and <span>Majority Populations</span> of <span>Norway</span> and <span>Sweden</span>. <em>The Journal of Race, Ethnicity, and Politics</em>, <em>9</em>(1), 1–25. <a href="https://doi.org/10.1017/rep.2023.38">https://doi.org/10.1017/rep.2023.38</a>
+</div>
+<div id="ref-disipavlic2024" class="csl-entry" role="listitem">
+Disi Pavlic, R. (2024). Indigenous <span>Voices</span> and <span>Votes</span>: <span>Assessing</span> the <span>Dynamics</span> of <span>Indigenous Politics</span> in <span>Chile</span>’s <span>Constitutional Referendum</span> of 2022. <em>PS: Political Science &amp; Politics</em>, <em>57</em>(2), 267–273. <a href="https://doi.org/10.1017/S1049096523000872">https://doi.org/10.1017/S1049096523000872</a>
+</div>
+<div id="ref-fuentes2025" class="csl-entry" role="listitem">
+Fuentes, C., De Cea, M., &amp; Miranda, C. (2025). A divided society: Social perceptions about indigenous peoples’ rights in <span>Chile</span>. <em>Canadian Journal of Latin American and Caribbean Studies / Revue Canadienne Des Études Latino-Américaines Et Caraïbes</em>, <em>50</em>(1), 23–42. <a href="https://doi.org/10.1080/08263663.2024.2421120">https://doi.org/10.1080/08263663.2024.2421120</a>
+</div>
+<div id="ref-herraz2026" class="csl-entry" role="listitem">
+Herraz, P., Murray, M., Luna, L., Piña, G., &amp; Villazón, N. (2026). Plurinationality as an empty signifier in the <span>Chilean</span> constitutional convention of 2021–2022: Recognition of difference and construction of the common. <em>Latin American and Caribbean Ethnic Studies</em>, 1–22. <a href="https://doi.org/10.1080/17442222.2026.2656088">https://doi.org/10.1080/17442222.2026.2656088</a>
+</div>
+<div id="ref-kiley2020" class="csl-entry" role="listitem">
+Kiley, K., &amp; Vaisey, S. (2020). Measuring <span>Stability</span> and <span>Change</span> in <span>Personal Culture Using Panel Data</span>. <em>American Sociological Review</em>, <em>85</em>(3), 477–506. <a href="https://doi.org/10.1177/0003122420921538">https://doi.org/10.1177/0003122420921538</a>
+</div>
+<div id="ref-kline2023" class="csl-entry" role="listitem">
+Kline, R. B. (2023). <em>Principles and <span>Practice</span> of <span>Structural Equation Modeling</span></em>. Guilford Publications.
+</div>
+<div id="ref-kustov2021" class="csl-entry" role="listitem">
+Kustov, A., Laaker, D., &amp; Reller, C. (2021). The <span>Stability</span> of <span>Immigration Attitudes</span>: <span>Evidence</span> and <span>Implications</span>. <em>The Journal of Politics</em>, <em>83</em>(4), 1478–1494. <a href="https://doi.org/10.1086/715061">https://doi.org/10.1086/715061</a>
+</div>
+<div id="ref-kymlicka2003" class="csl-entry" role="listitem">
+Kymlicka, W. (2003). <em>Multicultural citizenship: A liberal theory of minority rights</em> (Repr. in paperback). Clarendon Press [u.a.].
+</div>
+<div id="ref-montenegro2024" class="csl-entry" role="listitem">
+Montenegro, M. (2024). Documenting <span>Territorialidad</span>: An intercultural approach to the provenance of <span>Mapuche</span> land records. <em>Archival Science</em>, <em>24</em>(4), 923–945. <a href="https://doi.org/10.1007/s10502-024-09466-6">https://doi.org/10.1007/s10502-024-09466-6</a>
+</div>
+<div id="ref-pairican2021" class="csl-entry" role="listitem">
+Pairican, F., &amp; Urrutia, M. J. (2021). The permanent rebellion: <span>An</span> interpretation of <span>Mapuche</span> uprisings under <span>Chilean</span> colonialism. <em>Radical Americas</em>, <em>6</em>(1). <a href="https://doi.org/10.14324/111.444.ra.2021.v6.1.012">https://doi.org/10.14324/111.444.ra.2021.v6.1.012</a>
+</div>
+<div id="ref-piscopo2021" class="csl-entry" role="listitem">
+Piscopo, J. M., &amp; Siavelis, P. M. (2021). Chile’s <span>Constitutional Moment</span>. <em>Current History</em>, <em>120</em>(823), 43–49. <a href="https://doi.org/10.1525/curh.2021.120.823.43">https://doi.org/10.1525/curh.2021.120.823.43</a>
+</div>
+<div id="ref-prior2010" class="csl-entry" role="listitem">
+Prior, M. (2010). You’ve <span>Either Got It</span> or <span>You Don</span>’t? <span>The Stability</span> of <span>Political Interest</span> over the <span>Life Cycle</span>. <em>The Journal of Politics</em>, <em>72</em>(3), 747–766. <a href="https://doi.org/10.1017/S0022381610000149">https://doi.org/10.1017/S0022381610000149</a>
+</div>
+<div id="ref-sears1983" class="csl-entry" role="listitem">
+Sears, D. O. (1983). The persistence of early political predispositions: The roles of attitude object and life stage. In L. Wheeler &amp; P. Shaver (Eds.), <em>Review of personality and social psychology</em> (Vol. 4, pp. 79–116). Sage.
+</div>
+<div id="ref-somma2021" class="csl-entry" role="listitem">
+Somma, N. M., Bargsted, M., Disi Pavlic, R., &amp; Medel, R. M. (2021). No water in the oasis: The <span>Chilean Spring</span> of 2019–2020. <em>Social Movement Studies</em>, <em>20</em>(4), 495–502. <a href="https://doi.org/10.1080/14742837.2020.1727737">https://doi.org/10.1080/14742837.2020.1727737</a>
+</div>
+<div id="ref-suarezdelucchi2024" class="csl-entry" role="listitem">
+Suárez Delucchi, A., &amp; Rivera Ugarte, V. (2024). The <span>Chilean Constitutional Process Narrated Through</span> a <span>Spiral</span>. <em>Studies in Social Justice</em>, <em>18</em>(4), 969–991. <a href="https://doi.org/10.26522/ssj.v18i4.4367">https://doi.org/10.26522/ssj.v18i4.4367</a>
+</div>
+<div id="ref-turrachico2026" class="csl-entry" role="listitem">
+Turra Chico, H., Alonso-Yanez, G., Rice, R., &amp; Caurapán Puelpán, E. (2026). Invited but <span>Ignored</span>: <span>The Political Participation</span> of <span>Indigenous People</span> in <span>Chile</span>’s <span>Constitutional Process</span>. <em>Latin American Perspectives</em>, <em>53</em>(3), 222–244. <a href="https://doi.org/10.1177/0094582X261452610">https://doi.org/10.1177/0094582X261452610</a>
+</div>
+<div id="ref-vaisey2021" class="csl-entry" role="listitem">
+Vaisey, S., &amp; Kiley, K. (2021). A <span>Model-Based Method</span> for <span>Detecting Persistent Cultural Change Using Panel Data</span>. <em>Sociological Science</em>, <em>8</em>, 83–95. <a href="https://doi.org/10.15195/v8.a5">https://doi.org/10.15195/v8.a5</a>
+</div>
+<div id="ref-wiley1970" class="csl-entry" role="listitem">
+Wiley, D. E., &amp; Wiley, J. A. (1970). The <span>Estimation</span> of <span>Measurement Error</span> in <span>Panel Data</span>. <em>American Sociological Review</em>, <em>35</em>(1), 112. <a href="https://doi.org/10.2307/2093858">https://doi.org/10.2307/2093858</a>
+</div>
+</div>
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="logopuc.png" class="slide-logo"></p>
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="pres_estabilidad_politicas_indigenas_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="pres_estabilidad_politicas_indigenas_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
