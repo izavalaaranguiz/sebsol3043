@@ -27,9 +27,8 @@ Los materiales de replicación están en `elri_seb/`:
 Para reproducir los resultados:
 
 1. Abrir base en `elri_seb/01_input/`.
-2. Instalar los paquetes de R: `install.packages(c("tidyverse", "haven", "lavaan"))`.
-3. Fijar el directorio de trabajo en `elri_seb/02_scripts/` y correr el script completo.
-4. El script guarda en `03_output/` la Figura 1 (`fig_medias_por_ola.png`), la tabla de ajuste de los modelos (`tabla_ajuste_modelos.csv`) y la tabla del QSM (`tabla_qsm.csv`).
+2. Fijar el directorio de trabajo en `elri_seb/02_scripts/` y correr el script completo.
+3. El script guarda en `03_output/` la Figura 1 (`fig_medias_por_ola.png`), la tabla de ajuste de los modelos (`tabla_ajuste_modelos.csv`) y la tabla del QSM (`tabla_qsm.csv`).
 
 
 
